@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+<div *ngFor="let contact of contacts" class="wrapper">
+    <div class="avatar"> {{contact.name.charAt(0).toUpperCase()}}</div>
+    <div class="info">
+      <h1>{{contact.name.toUpperCase()}}</h1>
+      <h3><em>{{contact.email}}</em></h3>
+      <h3><em>{{contact.number}}</em></h3>
+    </div>
+    <div class="actions">
+      <span class="material-symbols-outlined" (click)="editContact(contact)">edit</span>
+      <span class="material-symbols-outlined" (click)="deleteContact(contact)">delete</span>
+    </div>
+ 
+</div>
+
+<app-edit-form></app-edit-form>
+

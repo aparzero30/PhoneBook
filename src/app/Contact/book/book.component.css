@@ -1,0 +1,60 @@
+
+
+
+.wrapper{
+    height: 20vh;
+    width: 32vw;
+    background-color: cadetblue;
+    height: 20vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: Poppins;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.avatar{
+    height: 15vh;
+    width: 15vh;
+    border-style: solid;
+    border-width:0.5;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5vw;
+    border-radius: 50% ;
+    user-select: none;
+}
+
+.info{
+    width: 17vw;
+ 
+}
+
+.info h1{
+    margin: 0;
+}
+
+.info h3{
+  margin: 0;
+}
+
+.actions{
+    color: white;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    flex-direction: column;
+}
+
+.actions span{
+  cursor: pointer;
+  user-select: none;
+}

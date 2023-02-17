@@ -1,0 +1,68 @@
+form{
+    background-color: cadetblue;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1vh;
+   position: fixed;
+   top: 25vh;
+   left: 40%;
+   z-index: 0;
+
+    
+}
+
+form span{
+    color: white    ;
+    user-select: none;
+}
+
+
+form input{
+   
+    width: 70%;
+    height: 1.5vw;
+    font-size: 1vw;
+    border: none;
+    padding: 1px;
+    text-align: center;
+    font-family: Poppins;
+    
+  
+}
+
+form div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+input:focus {
+    outline: none;
+  }
+
+form button{
+    margin-top: 3vh;
+    height: 2vw;
+    width: 80%;
+    border-radius: 20px;
+    border: 0dvi;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+#cont{
+    font-size: 5vw;
+    
+   
+}
+
+input::placeholder {
+    color: gray;
+    font-style: italic;
+  }
